@@ -12,29 +12,184 @@
     <!-- tailwind cdn -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
+    <!-- remixicon cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+        integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body class="font-[Poppins]">
 
     <!-- header section -->
-    <header class="max-w-[90%] 2xl:max-w-[1440px] rounded-lg mx-auto md:mt-12 bg-black text-white flex flex-col items-center justify-center md:flex-row md:justify-between ">
+    <header
+        class="max-w-[90%] 2xl:max-w-[1440px] rounded-lg mx-auto md:mt-12 bg-black text-white flex flex-col items-center justify-center md:flex-row md:justify-between ">
 
         <!-- left side  -->
         <div class="text-center mt-5 mx-9 md:text-left flex-1/2 md:ml-16">
-            <h1 class="text-2xl font-bold mb-2 md:text-4xl md:font-semibold md:max-w-[290px] xl:text-7xl md:max-w-[300px] xl:max-w-[540px]">The Greatest show on the earth</h1>
-            <p class="text-sm mb-4 md:text-[1rem] text-[rgba(255,255,255,0.8)]">Contrary to popular belief, Lorem Ipsum is not simply
+            <h1
+                class="text-2xl font-bold mb-2 md:text-4xl md:font-semibold md:max-w-[290px] xl:text-7xl md:max-w-[400px] xl:max-w-[540px]">
+                The Greatest show on the earth</h1>
+            <p class="text-sm mb-4 md:text-[1rem] text-[rgba(255,255,255,0.8)]">Contrary to popular belief, Lorem Ipsum
+                is not simply
                 random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
                 old.</p>
             <button class="py-2 px-3 text-xl rounded-sm bg-[#DD0000] cursor-pointer">Watch Live ></button>
         </div>
 
         <!-- right side -->
-         <div class="flex justify-center mt-7 md:mr-4">
+        <div class="flex justify-center mt-7 md:mr-4">
             <img class="max-w-[70%] md:max-w-full" src="./assets/img/banner/banner-img.png" alt="">
-         </div>
+        </div>
     </header>
 
     <main>
+
+        <!-- all section  -->
+        <section class="mt-24 flex flex-col lg:flex-row gap-14 mx-auto sm:max-w-11/12 2xl:max-w-[1440px]">
+            <!-- category -->
+            <div class="text-white lg:bg-[#161616] flex-1/4 text-center max-w-[312px] max-h-[312px] rounded-xl flex flex-col md:flex-row lg:flex-col items-center justify-center gap-8 md:max-w-11/12 mx-auto lg:p-8">
+                <button class="py-2 px-3 text-xl rounded-sm bg-[#ffffff] cursor-pointer w-[252px] text-black border-[#E8E8E8] border">Upcoming
+                    Mach</button>
+                <button class="py-2 px-3 text-xl rounded-sm bg-[#ffffff] cursor-pointer w-[252px] text-black border-[#E8E8E8] border">All
+                    group</button>
+                <button
+                    class="py-2 px-3 text-xl rounded-sm bg-[#DD0000] cursor-pointer w-[252px] text-white">Blog</button>
+            </div>
+
+            <!-- blog container-->
+            <div class="grid grid-cols-1 place-items-center gap-14 md:grid-cols-2 lg:grid-cols-3">
+
+                <!-- blog item  1-->
+                <div class="max-w-[312px] shadow rounded-lg">
+                    <img class="rounded-t-lg" src="./assets/img/matches/matches_1.jpg" alt="">
+
+                    <!-- blog content  -->
+                    <div class="p-5">
+                        <button class="text-[1rem] font-medium py-1 px-4 border-black border cursor-pointer rounded-sm mb-[15px]">Transfer</button>
+                        <h2 class="text-lg font-semibold text-[#161616] mb-5">Transfer Live: Chlesea in talks over Kimpenbe transfer</h2>
+                        <div class="text-[1rem]">
+                            <i class="ri-time-line text-lg mr-[8px]"></i> 10h
+                            <i class="ri-chat-2-line text-lg mr-[8px] ml-[44px] cursor-pointer"></i> 23
+                        </div>
+                    </div>
+                </div>
+                <!-- blog item  2-->
+                <div class="max-w-[312px] shadow rounded-lg">
+                    <img class="rounded-t-lg" src="./assets/img/matches/matches_6.jpg" alt="">
+
+                    <!-- blog content  -->
+                    <div class="p-5">
+                        <button class="text-[1rem] font-medium py-1 px-4 border-black border cursor-pointer rounded-sm mb-[15px]">Transfer</button>
+                        <h2 class="text-lg font-semibold text-[#161616] mb-5">Transfer Live: Chlesea in talks over Kimpenbe transfer</h2>
+                        <div class="text-[1rem]">
+                            <i class="ri-time-line text-lg mr-[8px]"></i> 10h
+                            <i class="ri-chat-2-line text-lg mr-[8px] ml-[44px] cursor-pointer"></i> 23
+                        </div>
+                    </div>
+                </div>
+                <!-- blog item  3-->
+                <div class="max-w-[312px] shadow rounded-lg">
+                    <img class="rounded-t-lg" src="./assets/img/matches/matches_3.jpg" alt="">
+
+                    <!-- blog content  -->
+                    <div class="p-5">
+                        <button class="text-[1rem] font-medium py-1 px-4 border-black border cursor-pointer rounded-sm mb-[15px]">Transfer</button>
+                        <h2 class="text-lg font-semibold text-[#161616] mb-5">Transfer Live: Chlesea in talks over Kimpenbe transfer</h2>
+                        <div class="text-[1rem]">
+                            <i class="ri-time-line text-lg mr-[8px]"></i> 10h
+                            <i class="ri-chat-2-line text-lg mr-[8px] ml-[44px] cursor-pointer"></i> 23
+                        </div>
+                    </div>
+                </div>
+                <!-- blog item  4-->
+                <div class="max-w-[312px] shadow rounded-lg">
+                    <img class="rounded-t-lg" src="./assets/img/matches/matches_4.jpeg" alt="">
+
+                    <!-- blog content  -->
+                    <div class="p-5">
+                        <button class="text-[1rem] font-medium py-1 px-4 border-black border cursor-pointer rounded-sm mb-[15px]">Transfer</button>
+                        <h2 class="text-lg font-semibold text-[#161616] mb-5">Transfer Live: Chlesea in talks over Kimpenbe transfer</h2>
+                        <div class="text-[1rem]">
+                            <i class="ri-time-line text-lg mr-[8px]"></i> 10h
+                            <i class="ri-chat-2-line text-lg mr-[8px] ml-[44px] cursor-pointer"></i> 23
+                        </div>
+                    </div>
+                </div>
+                <!-- blog item  5-->
+                <div class="max-w-[312px] shadow rounded-lg">
+                    <img class="rounded-t-lg" src="./assets/img/matches/matches_5.webp" alt="">
+
+                    <!-- blog content  -->
+                    <div class="p-5">
+                        <button class="text-[1rem] font-medium py-1 px-4 border-black border cursor-pointer rounded-sm mb-[15px]">Transfer</button>
+                        <h2 class="text-lg font-semibold text-[#161616] mb-5">Transfer Live: Chlesea in talks over Kimpenbe transfer</h2>
+                        <div class="text-[1rem]">
+                            <i class="ri-time-line text-lg mr-[8px]"></i> 10h
+                            <i class="ri-chat-2-line text-lg mr-[8px] ml-[44px] cursor-pointer"></i> 23
+                        </div>
+                    </div>
+                </div>
+                <!-- blog item  6-->
+                <div class="max-w-[312px] shadow rounded-lg">
+                    <img class="rounded-t-lg" src="./assets/img/matches/matches_6.jpg" alt="">
+
+                    <!-- blog content  -->
+                    <div class="p-5">
+                        <button class="text-[1rem] font-medium py-1 px-4 border-black border cursor-pointer rounded-sm mb-[15px]">Transfer</button>
+                        <h2 class="text-lg font-semibold text-[#161616] mb-5">Transfer Live: Chlesea in talks over Kimpenbe transfer</h2>
+                        <div class="text-[1rem]">
+                            <i class="ri-time-line text-lg mr-[8px]"></i> 10h
+                            <i class="ri-chat-2-line text-lg mr-[8px] ml-[44px] cursor-pointer"></i> 23
+                        </div>
+                    </div>
+                </div>
+                <!-- blog item  7-->
+                <div class="max-w-[312px] shadow rounded-lg">
+                    <img class="rounded-t-lg" src="./assets/img/matches/matches_4.jpeg" alt="">
+
+                    <!-- blog content  -->
+                    <div class="p-5">
+                        <button class="text-[1rem] font-medium py-1 px-4 border-black border cursor-pointer rounded-sm mb-[15px]">Transfer</button>
+                        <h2 class="text-lg font-semibold text-[#161616] mb-5">Transfer Live: Chlesea in talks over Kimpenbe transfer</h2>
+                        <div class="text-[1rem]">
+                            <i class="ri-time-line text-lg mr-[8px]"></i> 10h
+                            <i class="ri-chat-2-line text-lg mr-[8px] ml-[44px] cursor-pointer"></i> 23
+                        </div>
+                    </div>
+                </div>
+                <!-- blog item  8-->
+                <div class="max-w-[312px] shadow rounded-lg">
+                    <img class="rounded-t-lg" src="./assets/img/matches/matches_3.jpg" alt="">
+
+                    <!-- blog content  -->
+                    <div class="p-5">
+                        <button class="text-[1rem] font-medium py-1 px-4 border-black border cursor-pointer rounded-sm mb-[15px]">Transfer</button>
+                        <h2 class="text-lg font-semibold text-[#161616] mb-5">Transfer Live: Chlesea in talks over Kimpenbe transfer</h2>
+                        <div class="text-[1rem]">
+                            <i class="ri-time-line text-lg mr-[8px]"></i> 10h
+                            <i class="ri-chat-2-line text-lg mr-[8px] ml-[44px] cursor-pointer"></i> 23
+                        </div>
+                    </div>
+                </div>
+                <!-- blog item  9-->
+                <div class="max-w-[312px] shadow rounded-lg">
+                    <img class="rounded-t-lg" src="./assets/img/matches/matches_1.jpg" alt="">
+
+                    <!-- blog content  -->
+                    <div class="p-5">
+                        <button class="text-[1rem] font-medium py-1 px-4 border-black border cursor-pointer rounded-sm mb-[15px]">Transfer</button>
+                        <h2 class="text-lg font-semibold text-[#161616] mb-5">Transfer Live: Chlesea in talks over Kimpenbe transfer</h2>
+                        <div class="text-[1rem]">
+                            <i class="ri-time-line text-lg mr-[8px]"></i> 10h
+                            <i class="ri-chat-2-line text-lg mr-[8px] ml-[44px] cursor-pointer"></i> 23
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
 
     </main>
     <!-- hero section  -->
